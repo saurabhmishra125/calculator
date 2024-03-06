@@ -1,0 +1,42 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+}
+.box {
+    width: 178px;
+    border: 1.5px solid black;
+    height: 152px;
+    border-radius: 5px;
+    padding: 8px;
+    background-color: lightskyblue;
+    margin: auto;
+    position: relative;
+    top: 35%;
+}
+button.btn {
+    width: 32px;
+    height: 23px;
+    margin: 2px;
+    background: white;
+    color: blue;
+    border: 2px solid #2e6593;
+    border-radius: 5px;
+    box-shadow: 2px 2px black;
+    font-size: 17px;
+    cursor: pointer;
+}
+button.btn:hover {
+    background: rgb(243, 226, 226);
+}
+button.opt {
+    background: #ef1717;
+}
+input[type="text"] {
+    width: 110px;
+    margin: 3px;
+    text-align: right;
+}
